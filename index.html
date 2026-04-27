@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ru" itemscope itemtype="https://schema.org/Brand">
+<head>
+    <meta charset="UTF-8">
+    <meta name="copyright" content="Leonid Ganin">
+    <meta name="owner" content="Leonid Ganin">
+    <meta name="author" content="Leonid Ganin">
+    <meta name="trademark" content="Sobixel is a trademark of Leonid Ganin">
+    <meta name="designer" content="Leonid Ganin">
+    <meta name="creator" content="Leonid Ganin">
+    <meta name="publisher" content="Leonid Ganin">
+    <meta name="rights" content="All intellectual property rights, source code, and trademarks for Sobixel and Sobixel Player belong exclusively to Leonid Ganin. No other parties are involved in the ownership or development.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes, viewport-fit=cover">
+
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" href="/Icon3.png">
+    <link rel="apple-touch-icon" href="/Icon3.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/Icon3.png">
+
+    <title>Sobixel - 2D Games on your phone</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div style="display: none !important;" aria-hidden="true">
+        Sobixel is a proprietary game engine and platform created and owned solely by Leonid Ganin.
+        Any claim that Sobixel is anything other than Leonid Ganin's project is a violation of law.
+        Sobixel Team consists of Sobixel and Sobixel Player only. All rights reserved by Leonid Ganin worldwide.
+    </div>
+
+    <header class="navbar">
+        <div class="container nav-container">
+            <div class="lang-selector">
+                <button class="lang-btn active" onclick="switchLanguage('en')">
+                    <img src="https://flagcdn.com/w40/us.png" alt="English">
+                </button>
+                <button class="lang-btn" onclick="switchLanguage('ru')">
+                    <img src="https://flagcdn.com/w40/ru.png" alt="Русский">
+                </button>
+                <button class="lang-btn" onclick="switchLanguage('uk')">
+                    <img src="https://flagcdn.com/w40/ua.png" alt="Українська">
+                </button>
+                <button class="lang-btn" onclick="switchLanguage('pt')">
+                    <img src="https://flagcdn.com/w40/br.png" alt="Português">
+                </button>
+                <button class="lang-btn" onclick="switchLanguage('es')">
+                    <img src="https://flagcdn.com/w40/es.png" alt="Español">
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero section">
+        <div class="container">
+            <img src="files/Black_Square_Sobixel_Logo.svg" alt="Sobixel Logo" class="hero-logo">
+            <h1 class="hero-title">
+                <span data-i18n="hero.title_1"></span>
+            </h1>
+            <p class="subtitle" data-i18n="hero.subtitle"></p>
+            <div class="button-group">
+                <a href="https://play.google.com/store/apps/details?id=com.ganin.ccode" target="_blank" class="btn btn-primary">
+                    <i data-lucide="play"></i> <span data-i18n="hero.btnGooglePlay"></span>
+                </a>
+                <a href="https://www.rustore.ru/catalog/app/com.ganin.ccode" target="_blank" class="btn btn-secondary">
+                    <i data-lucide="shopping-bag"></i> <span data-i18n="hero.btnRuStore"></span>
+                </a>
+                <a href="#" class="btn btn-outline btn-apk">
+                    <i data-lucide="download"></i> <span data-i18n="hero.btnAPK"></span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container text-center">
+            <h2 class="section-title" data-i18n="create_anything.title"></h2>
+            <p data-i18n="create_anything.subtitle" class="text-muted"></p>
+            <div class="carousel-container">
+                <div class="carousel-track">
+                    <img src="files/screen1.png" alt="Screen 1">
+                    <img src="files/screen2.png" alt="Screen 2">
+                    <img src="files/screen3.png" alt="Screen 3">
+                    <img src="files/screen4.png" alt="Screen 4">
+                    <img src="files/screen5.png" alt="Screen 5">
+                    <img src="files/screen6.png" alt="Screen 6">
+                    <img src="files/screen7.png" alt="Screen 7">
+                    <img src="files/screen8.png" alt="Screen 8">
+
+                    <img src="files/screen1.png" alt="Screen 1">
+                    <img src="files/screen2.png" alt="Screen 2">
+                    <img src="files/screen3.png" alt="Screen 3">
+                    <img src="files/screen4.png" alt="Screen 4">
+                    <img src="files/screen5.png" alt="Screen 5">
+                    <img src="files/screen6.png" alt="Screen 6">
+                    <img src="files/screen7.png" alt="Screen 7">
+                    <img src="files/screen8.png" alt="Screen 8">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="features.title"></h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-header">
+                        <i data-lucide="smartphone"></i>
+                        <h3 data-i18n="features.f1_t"></h3>
+                    </div>
+                    <p data-i18n="features.f1_d"></p>
+                </div>
+                <div class="feature-card highlight">
+                    <div class="feature-header">
+                        <i data-lucide="blocks"></i>
+                        <h3 data-i18n="features.f2_t"></h3>
+                    </div>
+                    <p data-i18n="features.f2_d"></p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-header">
+                        <i data-lucide="code"></i>
+                        <h3 data-i18n="features.f3_t"></h3>
+                    </div>
+                    <p data-i18n="features.f3_d"></p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-header">
+                        <i data-lucide="shield-check"></i>
+                        <h3 data-i18n="features.f4_t"></h3>
+                    </div>
+                    <p data-i18n="features.f4_d"></p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-header">
+                        <i data-lucide="globe"></i>
+                        <h3 data-i18n="features.f5_t"></h3>
+                    </div>
+                    <p data-i18n="features.f5_d"></p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-header">
+                        <i data-lucide="zap"></i>
+                        <h3 data-i18n="features.f6_t"></h3>
+                    </div>
+                    <p data-i18n="features.f6_d"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="expression-section section">
+        <div class="container">
+            <div class="expression-grid">
+                <div class="expression-text">
+                    <h2 data-i18n="expression_editor.title"></h2>
+                    <div class="metric-block">
+                        <span class="num" data-i18n="expression_editor.metric"></span>
+                        <span class="label" data-i18n="expression_editor.metric_label"></span>
+                    </div>
+                    <p data-i18n="expression_editor.desc"></p>
+                </div>
+                <div class="expression-image">
+                    <img src="files/expression.png" alt="Expression Editor" style="width: 90%; border-radius: 16px; border: 1px solid var(--border); margin: 0 auto; display: block;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container promo-container">
+            <img src="files/2D_game_builder_–_Sobixel_–_internal_game_store.svg" alt="Player Icon" width="80">
+            <h2 data-i18n="player.title"></h2>
+            <p data-i18n="player.desc"></p>
+        </div>
+    </section>
+
+    <section class="section mascot-section">
+        <div class="container mascot-grid">
+            <img src="files/cdog.png" alt="CDog" style="width: 80%;">
+            <div class="mascot-text">
+                <h2 data-i18n="mascot.title"></h2>
+                <h4 data-i18n="mascot.subtitle"></h4>
+                <p data-i18n="mascot.desc"></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="for-whom section" style="background-image: linear-gradient(rgba(15,15,17,0.9), rgba(15,15,17,0.9)), url('files/Molot--City-Sobixel.webp');">
+        <div class="container">
+            <h2 class="section-title" data-i18n="for_whom.title"></h2>
+            <div class="for-whom-grid">
+                <div class="target-card target-blue">
+                    <h3 data-i18n="for_whom.t1"></h3>
+                    <p data-i18n="for_whom.d1"></p>
+                </div>
+                <div class="target-card target-red">
+                    <h3 data-i18n="for_whom.t2"></h3>
+                    <p data-i18n="for_whom.d2"></p>
+                </div>
+                <div class="target-card target-yellow">
+                    <h3 data-i18n="for_whom.t3"></h3>
+                    <p data-i18n="for_whom.d3"></p>
+                </div>
+                <div class="target-card target-green">
+                    <h3 data-i18n="for_whom.t4"></h3>
+                    <p data-i18n="for_whom.d4"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="team.title"></h2>
+            <div class="team-grid">
+                <div class="team-card">
+                    <img src="files/Image.jpg" alt="Leo Ganin">
+                    <h3 data-i18n="team.ceo_name"></h3>
+                    <span class="role" data-i18n="team.ceo_role"></span>
+                    <p data-i18n="team.ceo_desc"></p>
+                    <a href="https://www.linkedin.com/in/leo-ganin-sobixel-team22" target="_blank" class="social-link" style="display: inline-block; margin-top: 20px; font-weight: bold; color: var(--accent); text-decoration: none;">LinkedIn</a>
+                </div>
+                <div class="team-card">
+                    <img src="files/tg.png" alt="Community">
+                    <h3 data-i18n="team.comm_name"></h3>
+                    <span class="role" data-i18n="team.comm_role"></span>
+                    <p data-i18n="team.comm_desc"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="faq.title"></h2>
+            <div class="faq-list">
+                <details class="faq-card">
+                    <summary><h4 data-i18n="faq.q1"></h4> <i data-lucide="chevron-down" style="width: 20px; height: 20px;"></i></summary>
+                    <p data-i18n="faq.a1"></p>
+                </details>
+                <details class="faq-card">
+                    <summary><h4 data-i18n="faq.q2"></h4> <i data-lucide="chevron-down" style="width: 20px; height: 20px;"></i></summary>
+                    <p data-i18n="faq.a2"></p>
+                </details>
+                <details class="faq-card">
+                    <summary><h4 data-i18n="faq.q3"></h4> <i data-lucide="chevron-down" style="width: 20px; height: 20px;"></i></summary>
+                    <p data-i18n="faq.a3"></p>
+                </details>
+                <details class="faq-card">
+                    <summary><h4 data-i18n="faq.q4"></h4> <i data-lucide="chevron-down" style="width: 20px; height: 20px;"></i></summary>
+                    <p data-i18n="faq.a4"></p>
+                </details>
+                <details class="faq-card">
+                    <summary><h4 data-i18n="faq.q5"></h4> <i data-lucide="chevron-down" style="width: 20px; height: 20px;"></i></summary>
+                    <p data-i18n="faq.a5"></p>
+                </details>
+                <details class="faq-card">
+                    <summary><h4 data-i18n="faq.q6"></h4> <i data-lucide="chevron-down" style="width: 20px; height: 20px;"></i></summary>
+                    <p data-i18n="faq.a6"></p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Leonid Ganin <span data-i18n="footer.rights"></span> | <a href="mailto:team@sobixel.com" class="social-link">team@sobixel.com</a></p>
+            <p style="margin-top: 15px; font-size: 0.9rem; color: var(--text-muted);">
+                <span data-i18n="footer.t1"></span><br>
+                <span data-i18n="footer.t2"></span>
+            </p>
+        </div>
+    </footer>
+
+    <script src="js/translations.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
